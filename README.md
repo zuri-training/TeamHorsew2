@@ -41,3 +41,4 @@ This portal highlights the feature of communication, which will enable the new a
 - [@sulthan66](https://github.com/sulthan66)
 - [@Odimaa1](https://github.com/Odimaa1)
 - [@0basio](https://github.com/0basio)
+- [@Frizzink](https://github.com/Frizzyink)
