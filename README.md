@@ -49,7 +49,7 @@ This portal highlights the feature of communication, which will enable the new a
 
 **Database:** MySQL
 
-**Project Management and Version Control:**GitHub
+**Project Management and Version Control:** GitHub
 
 
 ## Authors 
