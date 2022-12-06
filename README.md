@@ -43,7 +43,7 @@ This portal highlights the feature of communication, which will enable the new a
 
 **Design:** Figma
 
-**Frontend:** HTML, CSS, Javascript, Bootstrap
+**Frontend:** HTML, CSS, Javascript
 
 **Backend:** PHP
 
