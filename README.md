@@ -37,6 +37,21 @@ This portal highlights the feature of communication, which will enable the new a
 - [Figma Link](https://www.figma.com/file/ZJkiIGnF2U7EUDmDAuMstf/Team-HorseW2-Alumni-Design-Project?node-id=0%3A1&t=ARNXj7cQEMdL6Q0K-1)
 - [Google Doc](https://docs.google.com/document/d/1DWkZdTgoSvvn4_8arN-P_ITPZStDnFW8UzHEPHZ2-9Q/edit?usp=sharing)
 
+## Tech Stack
+
+> This project was created with Visual Studio Code and the following technologies were used:
+
+**Design:** Figma
+
+**Frontend:** HTML, CSS, Javascript, Bootstrap
+
+**Backend:** PHP
+
+**Database:** MySQL
+
+**Project Management and Version Control:**GitHub
+
+
 ## Authors 
 - [@sulthan66](https://github.com/sulthan66)
 - [@Odimaa1](https://github.com/Odimaa1)
