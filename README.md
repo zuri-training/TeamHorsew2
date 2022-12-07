@@ -52,6 +52,39 @@ This portal highlights the feature of communication, which will enable the new a
 **Project Management and Version Control:** GitHub
 
 
+# 🛠 Project Milestone <a name="project-stack"></a>
+
+<details>
+  <summary>Milestone 1</summary>
+  <ul>
+    <li><a href="https://www.figma.com/file/ZJkiIGnF2U7EUDmDAuMstf/Team-HorseW2-Alumni-Design-Project?node-id=0%3A1&t=ARNXj7cQEMdL6Q0K-1">Figma Design Link</a></li>
+    <li><a href="https://lucid.app/documents/view/9f55f977-8771-4e8e-abdb-58a8c7d70cd4">Data Schema Link</a></li>
+    <li><a href="https://docs.google.com/document/d/1DWkZdTgoSvvn4_8arN-P_ITPZStDnFW8UzHEPHZ2-9Q/edit?usp=sharing">Google Doc Link</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>Milestone 2</summary>
+  <ul>
+    <li><a href="https://github.com/zuri-training/TeamHorsew2/tree/main/Milestone-2">Project Structure and Base Files</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>Milestone 3</summary>
+  <ul>
+    <li><a href="#">Coming soon</a></li>
+  </ul>
+</details>
+
+<details>
+<summary>Milestone 4</summary>
+  <ul>
+    <li><a href="#">Coming soon</a></li>
+  </ul>
+</details>
+
+
 ## Authors 
 - [@sulthan66](https://github.com/sulthan66)
 - [@Odimaa1](https://github.com/Odimaa1)
