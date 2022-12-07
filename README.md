@@ -52,7 +52,7 @@ This portal highlights the feature of communication, which will enable the new a
 **Project Management and Version Control:** GitHub
 
 
-# 🛠 Project Milestone <a name="project-stack"></a>
+## Project Milestone
 
 <details>
   <summary>Milestone 1</summary>
