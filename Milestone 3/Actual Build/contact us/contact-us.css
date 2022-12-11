@@ -11,8 +11,8 @@ body{
 /*start of the body*/
 .contact{
   width:100%;
-  margin:65px auto;
-  height:70vh;
+  margin:100px auto;
+  height:500px;
   background-color: rgb(202, 176, 194);
 }
 h3,p{
@@ -78,3 +78,51 @@ img{
   margin-right: 10px;
 }
 /*end of the body*/
+
+.footer_wrapper  {
+  background-color: #efefee;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 300px;
+}
+
+h6 {
+position: relative;
+bottom: 48px;
+color:grey;
+  font-family: poppins;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.second-div li,
+.third-div li,
+.fourth-div li {
+  list-style: none;
+  position: relative;
+  
+  font-size: 16px;
+  color: grey;
+  padding-top: 15px;
+}
+h5 {
+  font-size: 16px;
+  font-weight: 500;
+}
+.logo h5 {
+  position: relative;
+  bottom: 1rem;
+  color: grey;
+}
+.bi-bi-twitter,
+.bi-bi-instagram {
+  position: relative;
+  bottom:30px;
+  color: lightslategrey;
+}
+img{
+  position: relative;
+  right: 25px;
+}
