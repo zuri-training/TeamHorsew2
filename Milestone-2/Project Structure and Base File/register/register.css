@@ -24,7 +24,7 @@ margin-top: 20px;
 }
 .logo{
     margin-left: 180px;
-    margin-bottom: -30px;
+    margin-bottom: -50px;
 }
 input{
     width:85%;
@@ -42,8 +42,8 @@ padding-left: 0%;
     width:42%;
 }
 select{
-width:43%;
-height: 20px;
+width:85%;
+height: 30px;
 border: 1px solid purple;
 border-radius: 8px;
 margin-top: 3px;
@@ -67,7 +67,7 @@ margin-bottom: 15px;
 }
 button{
     width: 85%;
-    height: 32px;
+    height: 35px;
     font-size: 17px;
     border: 1px solid;
     border-radius: 10px;
