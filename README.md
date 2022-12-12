@@ -73,7 +73,7 @@ This portal highlights the feature of communication, which will enable the new a
 <details>
   <summary>Milestone 3</summary>
   <ul>
-    <li><a href="#">Coming soon</a></li>
+    <li><a href="https://github.com/zuri-training/TeamHorsew2/tree/main/Milestone%203">Authentication module and Actual build</a></li>
   </ul>
 </details>
 
