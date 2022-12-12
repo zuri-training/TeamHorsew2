@@ -66,7 +66,7 @@ This portal highlights the feature of communication, which will enable the new a
 <details>
   <summary>Milestone 2</summary>
   <ul>
-    <li><a href="https://github.com/zuri-training/TeamHorsew2/tree/main/Milestone-2">Project Structure and Base Files</a></li>
+    <li><a href="https://github.com/zuri-training/TeamHorsew2/tree/main/Milestone%202">Project Structure and Base Files</a></li>
   </ul>
 </details>
 
