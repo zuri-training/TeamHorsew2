@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;200;300;400;500;600;700;800;900&family=Lexend+Deca:wght@200;300;400;500&family=Lexend:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,900&family=Roboto:wght@100;300;400;500;700;900&family=Squada+One&display=swap");
 *{
   padding: 0;
   margin: 0;
@@ -78,3 +79,105 @@ img{
   margin-right: 10px;
 }
 /*end of the body*/
+
+/* footer styling */
+
+.footer_wrapper {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 27vh;
+  bottom: 5rem;
+  position: relative;
+  overflow: hidden;
+  font-family: poppins;
+} 
+ .footer_wrapper footer {
+ 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+  top: 4rem;
+
+} 
+.logo {
+  position: relative;
+  bottom: 1rem;
+}
+.logo h6 {
+  font-size: 25px;
+  position: relative;
+  top: -1rem;
+}
+
+.logo ul li {
+  display: inline-block;
+  margin: 0px;
+  position: relative;
+  top: 1rem;
+  right: 1rem;
+}
+.bi-bi-slash1 {
+  position: relative;
+  right: 0.8rem;
+  color: purple;
+}
+.bi-bi-slash-lg {
+  position: relative;
+  right: 13rem;
+  color: orange;
+}
+.bi-bi-slash {
+  position: relative;
+  right: 7rem;
+  top: 0.2rem;
+  color: black;
+}
+
+h6 {
+  position: relative;
+  left: 3rem;
+  top: 1rem;
+  font-family: poppins;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.second-div li,
+.third-div li,
+.fourth-div li {
+  list-style: none;
+  position: relative;
+  right: 2.3rem;
+  bottom: 1.2rem;
+  font-size: 16px;
+  color: grey;
+}
+h5 {
+  font-size: 16px;
+  font-weight: 500;
+  position: relative;
+  bottom: 2rem;
+  right: 2.3rem;
+
+}
+.logo h5 {
+  position: relative;
+  bottom: 0.2rem;
+  color: grey;
+}
+.bi-bi-twitter,
+.bi-bi-instagram {
+  position: relative;
+  bottom: 0.1rem;
+  margin: 5px;
+  color: lightslategrey;
+}
+
+@media screen and(max-width: 1025px) and (min-width:769px){
+   
+}
+
