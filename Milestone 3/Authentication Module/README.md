@@ -15,7 +15,7 @@ Names of the five tables are:
 Name of the one Views is:
 <ol>
 <li>vw1_alumni</li>
-
+<br>
 <p>The tblalumni table facilitates the authentication module which is used at the registration page with the following scenarios:</p>
 <ul>
 <li>will auto generate a user PIN and PASSWORD</li>
