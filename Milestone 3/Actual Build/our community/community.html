@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+
+    <!--------font awesome cdn link-------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+    <!-----css file----->
+    <link rel="stylesheet" href="nav.css">
+
+</head>
+<body>
+
+<section class="col">
+    <nav class="nav">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"> <img src="img/logo.png" alt=""> </a>
+                <p> </p>
+            </div>
+            
+            <div id="mainListDiv" class="main_list">
+                <ul class="navlinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="connect.html">Connect</a></li>
+                    <li><a href="#">Events</a></li>
+                    <li><a href="#">Donate</a></li>
+                    <li><a href="#">Organisation</a></li>
+                    <li><a href="#">Why Volunteer</a></li>
+                    <li><a href="#">My Profile</a></li>
+                </ul>
+            </div>
+            <span class="navTrigger">
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
+        </div>
+    </nav>
+
+    </section>
+
+    
+    <div style="background-image: linear-gradient(rgba(4,8,30,0.7),rgba(4,9,30,0.7)),url(img/coll.png);"> 
+        
+      <div>
+        <h2 class="top">Welcome to the Guiding Light College Alumni Association</h2>
+        <p class="par">The Guiding Light College Alumni Association maintains and enhances a highly engaged, vibrant community of alumni and friends worldwide. <br> It helps connect alumni to the University and each other through a wealth of community activities, continuing education programs, online services, and events around the world.</p>
+      </div>
+
+      <div class="button">
+        <a href="">About GLCA</a>  <a href="">Alumni Benefits</a>
+    </div>
+    		
+    </div>
+    
+    <section class="spread" >
+
+        
+            <div class="element" style="background-color: #D3BECD;">
+                <a href="" class="ex2"> Community Overview</a>
+                <br>
+                <br>
+                <a href="" class="ex2"> Careers & Networking</a>
+                <br>
+                <br>
+                <a href="" class="ex2"> Alumni Services</a>
+                <br>
+                <br>
+                <a href="" class="ex2"> Alumni Directory</a>
+                <br>
+                <br>
+                <a href="" class="ex2"> Help</a>
+                <br>
+                <br>
+                <a href="" class="ex2"> Get Involved</a>
+                
+            </div>
+
+            <div class="element2"  > 
+                <div class="element2a">
+
+                    
+                </div>
+                <div class="element2b">
+
+                    <p>The Guiding Light College Alumni Association (GLCA) is the official association for you and the more than 400,000 Guiding Light College alumni around the world. You have a membership just by attending Guiding Light College or one of Guiding Light Graduate and Professional Schools.
+                    <br>
+                    <br>
+                    Here at the HAA, we connect you and your fellow graduates with a wealth of networking opportunities, professional development resources, programs, volunteer opportunities, faculty-led trips, and more. So, whether you are looking to build or expand your Guiding Light  community, reconnect with classmates, mentor students, engage in lifelong learning, or stay informed on Guiding Light College news—the GLCA is here to keep you connected to it all.
+                    <br>
+                    <br>
+                    You may no longer be a student, but GLCA will always be here for you. Remember, Guiding Light College alumni community is your community.</p>
+                </div>
+            </div>
+
+        
+    
+    </section>
+
+
+
+
+
+
+    <!-- Site footer -->
+    
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+<!-- Jquery needed -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+
+<!-- Function used to shrink nav bar removing paddings and adding black background -->
+    <script>
+        $(window).scroll(function() {
+            if ($(document).scrollTop() > 50) {
+                $('.nav').addClass('affix');
+                console.log("OK");
+            } else {
+                $('.nav').removeClass('affix');
+            }
+        });
+    </script>
+
+    <script>
+
+$('.navTrigger').click(function () {
+    $(this).toggleClass('active');
+    console.log("Clicked menu");
+    $("#mainListDiv").toggleClass("show_list");
+    $("#mainListDiv").fadeIn();
+
+});
+
+    </script>
+
+
+      
+
+
+
+    
+
+
+
+</body>
+</html>

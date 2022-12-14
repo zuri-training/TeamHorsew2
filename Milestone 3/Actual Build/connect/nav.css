@@ -450,3 +450,289 @@ ul.social-icons {
     margin-right: 1rem;
     background-color: #5a32a3;
 }
+
+
+/*-------------organisation-----------*/
+
+.org {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(4,8,30,0.7),rgba(4,9,30,0.7)),url(img/us.png);
+    background-position: center;
+    background-size:cover;
+  }
+
+  .abt{
+    color: #807183;
+    font-weight: 900;
+    padding-left: 3rem;
+    padding-top: 5rem;
+    text-align:left;
+    font-size: 4rem;
+  }
+
+  .H3{
+    padding-top: 2rem;
+    text-align:left;
+    font-size: 4rem;
+    padding-left: 3rem;
+    
+      
+  }
+
+  .p
+    {
+    text-align: left;
+    padding-right:10%;
+    font-size: 32px;
+    color: #807183;
+    line-height: 300%;
+    }
+
+    * {
+        box-sizing: border-box;
+      }
+      
+      /* Create two equal columns that floats next to each other */
+      .column {
+        float: left;
+        width: 50%;
+        line-height: 300%;
+        padding-left: 3rem;
+        text-align:left;
+        height: 200px;
+    
+      }
+
+      .post{
+        padding-top: 5rem;
+        font-size: 4rem;
+      }
+      .office{
+        text-align: left;
+        padding-right:10%;
+        font-size: 28px;
+        color: #807183;
+        line-height: 150%;
+        padding-top: 5rem;
+    }
+    .tiny{
+        text-align: left;
+        padding-right:10%;
+        font-size: 18px;
+        line-height: 150%;
+        padding-top: 5rem;
+    }
+    .office c{
+        text-align: left;
+        padding-right:10%;
+        font-size: 16px;
+        color: #000000;
+        line-height: 100%;
+        padding-top: 5rem;
+    }
+
+
+    /*------------------kl;h;lkywa n---*/
+
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+.section{
+	width: 100%;
+	min-height: 100vh;
+	
+}
+.container{
+	width: 80%;
+	display: block;
+	margin:auto;
+	padding-top: 100px;
+}
+.content-section{
+	float: left;
+	width: 55%;
+}
+.image-section{
+	float: right;
+	width: 40%;
+}
+.image-section img{
+	width: 100%;
+	height: auto;
+}
+.content-section .title{
+	text-transform: uppercase;
+	font-size: 28px;
+}
+.content-section .content h3{
+	margin-top: 20px;
+	color:#5d5d5d;
+	font-size: 21px;
+}
+.content-section .content p{
+	margin-top: 10px;
+	font-family: sans-serif;
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+.content-section .social{
+	margin: 40px 40px;
+}
+.content-section .social i{
+	color:#a52a2a;
+	font-size: 30px;
+	padding:0px 10px;
+}
+.content-section .social i:hover{
+	color:#3d3d3d;
+}
+@media screen and (max-width: 768px){
+	.container{
+	width: 80%;
+	display: block;
+	margin:auto;
+	padding-top:50px;
+}
+.content-section{
+	float:none;
+	width:100%;
+	display: block;
+	margin:auto;
+}
+.image-section{
+	float:none;
+	width:100%;
+	
+}
+.image-section img{
+	width: 100%;
+	height: auto;
+	display: block;
+	margin:auto;
+}
+.content-section .title{
+	text-align: center;
+	font-size: 19px;
+}
+.content-section .content .button{
+	text-align: center;
+}
+.content-section .content .button a{
+	padding:9px 30px;
+}
+.content-section .social{
+	text-align: center;
+}
+
+}
+
+/*----------- COLLEGE--------------*/
+
+
+
+
+
+
+.top {
+    
+    padding-top: 10%;
+    text-align: left;
+    font-size: 4rem;
+    color: #fff;
+    padding-left: 5rem;
+  }
+.par{
+      text-align: left;
+      padding-left: 5rem;
+      font-size: 20px;
+      color: #fff;
+      padding-top: 3%;
+      line-height: 150%;
+}
+ .button{
+    margin-top: 50px;
+    text-align: center;
+}
+.button a{
+	background-color: #663158;
+    padding:12px 40px;
+	text-decoration: none;
+    color:#fff;
+    border-radius: 2vh;
+	font-size: 25px;
+	letter-spacing: 1.5px;
+}
+.button a:hover{
+	background-color: #D3BECD;
+	color:rgb(7, 1, 1);
+}
+
+
+.element {
+    text-align: left;
+    margin: 2%;
+    font-size: 18px;
+    padding-left: 4%;
+    margin-top: 5%;
+    border-radius: 2vh;
+    padding-top: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 5rem;
+    flex:1;
+    letter-spacing: .5px;
+    
+    
+  }
+.element2 {
+    text-align: left;
+    background-size: contain;
+    font-size: 18px;
+    flex:3;
+       
+  }
+.element2a {
+    background-image: url(img/all.png);
+    text-align: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 2%;
+    font-size: 18px;
+    padding-left: 4%;
+    margin-top: 5%;
+    width: 100%;
+    height: 150%;
+    
+  }
+.element2b {
+   
+    text-align: left;
+    background-size: contain;
+    margin: 2%;
+    font-size: 18px;
+    padding-left: 4%;
+    margin-top: 5%;
+    padding-top: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 5rem;
+  
+    
+  }
+
+  .element a:hover{
+    color:rgb(12, 1, 1);
+  }
+  a.ex2:hover, a.ex2:active {font-size: 150%;}
+
+  .spread { 
+      display: flex;
+      flex-direction: row;
+
+  }
+
+
