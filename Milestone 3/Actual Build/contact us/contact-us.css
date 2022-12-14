@@ -1,3 +1,4 @@
+/*@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;200;300;400;500;600;700;800;900&family=Lexend+Deca:wght@200;300;400;500&family=Lexend:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,900&family=Roboto:wght@100;300;400;500;700;900&family=Squada+One&display=swap");
 *{
   padding: 0;
   margin: 0;
@@ -7,11 +8,9 @@ body{
   width: 100%;
   height:100%;
 }
-
-/*start of the body*/
 .contact{
   width:100%;
-  margin:100px auto;
+  margin:200px auto;
   height:500px;
   background-color: rgb(202, 176, 194);
 }
@@ -75,54 +74,52 @@ input{
   margin:15px auto;
 }
 img{
-  margin-right: 10px;
+  margin-left: 13px;
 }
-/*end of the body*/
-
-.footer_wrapper  {
-  background-color: #efefee;
+footer{
+  background-color: #EFEFEE;
+  color: #678398;
+  margin-top: 345px;
+}
+.footer-content{
+  height: 30vh;
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
   align-items: center;
-  height: 300px;
-}
-
-h6 {
-position: relative;
-bottom: 48px;
-color:grey;
-  font-family: poppins;
-  font-size: 15px;
-  font-weight: 600;
-}
-
-.second-div li,
-.third-div li,
-.fourth-div li {
-  list-style: none;
   position: relative;
-  
-  font-size: 16px;
-  color: grey;
-  padding-top: 15px;
 }
-h5 {
-  font-size: 16px;
-  font-weight: 500;
+.first{
+  margin-left: 4rem;
+  padding-top: 50px;
 }
-.logo h5 {
-  position: relative;
-  bottom: 1rem;
-  color: grey;
+.first img{
+  width: 15%;
+  position: absolute;
+  top: -25px;
+  left: 15px;
 }
-.bi-bi-twitter,
-.bi-bi-instagram {
-  position: relative;
-  bottom:30px;
-  color: lightslategrey;
+footer a{
+  text-decoration: none;
+  color: #678398;
 }
-img{
-  position: relative;
-  right: 25px;
+.second{
+  margin-left: 15rem;
 }
+.third{
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+.second h4, .third h4, .last h4{
+  margin-bottom: 10px;
+  color: #000000;
+}
+.icons{
+  display: flex;
+  gap: 25px;
+  padding-top: 25px;
+}
+.icons i{
+  font-size: 20px;
+}
+#close{
+  display: none;
+}*/
