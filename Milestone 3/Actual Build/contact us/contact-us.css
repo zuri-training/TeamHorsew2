@@ -1,19 +1,52 @@
-@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;200;300;400;500;600;700;800;900&family=Lexend+Deca:wght@200;300;400;500&family=Lexend:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,900&family=Roboto:wght@100;300;400;500;700;900&family=Squada+One&display=swap");
 *{
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
+  
 }
 body{
   width: 100%;
   height:100%;
 }
+.main{
+  position: relative;
+  display: flex;
+  align-items: center;
+  
+}
+header  img{
+  position: absolute;
+  top: -35px;
+  left: 25px;
+}
+.icon{
+  position: absolute;
+  top: 40px;
+  left: 75rem;
+  display: flex;
+  gap: 1rem;
+  font-size: 1.2rem;
+}
+nav{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 60px;
+}
+nav a{
+  color: black;
+  text-decoration: none;
+  margin-top: 40px;
+  margin-right: 10px;
+  font-size: 1.2em;
+  font-weight: 700;
+}
+nav a:hover{
+  color:  rgb(167, 76, 139);
+}
 
-/*start of the body*/
 .contact{
   width:100%;
-  margin:65px auto;
-  height:70vh;
+  margin-top: -25px;
+  height:520px;
   background-color: rgb(202, 176, 194);
 }
 h3,p{
@@ -33,7 +66,7 @@ p{
 .flex-container{
   display: flex;
   justify-content: center;
-  margin-top: 15px;
+  margin-top: 20px;
   
 }
 label{
@@ -42,7 +75,7 @@ label{
 button{display: block;
   width:12%;
   height:38px;
-  margin:8px auto;
+  margin:18px auto;
   background-color: rgba(82, 17, 65, 0.884);
   color: white;
   font-size: 17px;
@@ -76,108 +109,55 @@ input{
   margin:15px auto;
 }
 img{
-  margin-right: 10px;
+  margin-left: 7px;
 }
-/*end of the body*/
-
-/* footer styling */
-
-.footer_wrapper {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  width: 100%;
-  height: 27vh;
-  bottom: 5rem;
-  position: relative;
-  overflow: hidden;
-  font-family: poppins;
-} 
- .footer_wrapper footer {
- 
+footer{
+  width:100%;
+  background-color: #EFEFEE;
+  color: #678398;
+  height: 220px;
+  
+  margin-top: -18px;
+}
+.footer-content{
+  height: 200px;
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
   align-items: center;
   position: relative;
-  top: 4rem;
-
-} 
-.logo {
-  position: relative;
-  bottom: 1rem;
+  margin-left: 50px;
 }
-.logo h6 {
-  font-size: 25px;
-  position: relative;
-  top: -1rem;
+.first{
+  margin-left: 4rem;
+  padding-top: 50px;
 }
-
-.logo ul li {
-  display: inline-block;
-  margin: 0px;
-  position: relative;
-  top: 1rem;
-  right: 1rem;
+.first img{
+  position: absolute;
+  top: 25px;
+  left: 35px;
 }
-.bi-bi-slash1 {
-  position: relative;
-  right: 0.8rem;
-  color: purple;
-}
-.bi-bi-slash-lg {
-  position: relative;
-  right: 13rem;
-  color: orange;
-}
-.bi-bi-slash {
-  position: relative;
-  right: 7rem;
-  top: 0.2rem;
-  color: black;
+footer a{
+  text-decoration: none;
+  color: #678398;
 }
 
-h6 {
-  position: relative;
-  left: 3rem;
-  top: 1rem;
-  font-family: poppins;
-  font-size: 12px;
-  font-weight: 600;
+.second{
+  margin-left: 15rem;
 }
-
-.second-div li,
-.third-div li,
-.fourth-div li {
-  list-style: none;
-  position: relative;
-  right: 2.3rem;
-  bottom: 1.2rem;
-  font-size: 16px;
-  color: grey;
+.third{
+  margin-left: 10rem;
+  margin-right: 10rem;
 }
-h5 {
-  font-size: 16px;
-  font-weight: 500;
-  position: relative;
-  bottom: 2rem;
-  right: 2.3rem;
-
+.second h4, .third h4, .last h4{
+  margin-bottom: 10px;
+  color: #000000;
 }
-.logo h5 {
-  position: relative;
-  bottom: 0.2rem;
-  color: grey;
+.icons{
+  display: flex;
+  gap: 10px;
+  padding-top: 15px;
 }
-.bi-bi-twitter,
-.bi-bi-instagram {
-  position: relative;
-  bottom: 0.1rem;
-  margin: 5px;
-  color: lightslategrey;
+.icons i{
+  font-size: 20px;
 }
-
-@media screen and(max-width: 1025px) and (min-width:769px){
-   
-}
-
+#close{
+  display: none;}

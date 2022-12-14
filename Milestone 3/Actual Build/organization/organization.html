@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+
+    <!--------font awesome cdn link-------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css">
+
+
+    <!-----css file----->
+    <link rel="stylesheet" href="nav.css">
+
+</head>
+<body>
+
+
+    <section class="org">
+
+    <nav class="nav">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"> <img src="img/logo.png"> </a>
+            </div>
+            <div id="mainListDiv" class="main_list">
+                <ul class="navlinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="connect.html">Connect</a></li>
+                    <li><a href="#">Events</a></li>
+                    <li><a href="#">Donate</a></li>
+                    <li><a href="organ.html">Organisation</a></li>
+                    <li><a href="#">Why Volunteer</a></li>
+                    <li><a href="#">My Profile</a></li>
+                </ul>
+
+            </div>
+            <span class="navTrigger">
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
+        </div>
+    </nav>
+
+    </section>
+   
+
+
+
+<div class="section">
+    <div class="container">
+        <div class="content-section">
+            <div class="title">
+                <h1>About Us</h1>
+            </div>
+            <div class="content">
+                <h3>Guiding Light College is overseen by President Peter Salovey and the university’s board of trustees, who comprise the governing and policy-making body known formally as the Guiding Light College Corporation. The institution is also led and supported by the University Cabinet, an advisory body convened by the president, which consists of the deans, vice presidents, and other senior academic and administrative leaders.</p>
+                
+
+                <div>
+                    <h2 class="post"> President & Trustees </h2>
+                        <h2 class="office">Peter Salovey - President</h2>
+
+                        <div class="tiny">
+                            <h2 class="offi">Board of Trustees</h2>
+                            <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+                             <h2 class="office">Scott A. Peter - <c>Provost</c> </h2>
+                             <h2 class="office">Franklin Peterside - <c>V. P Facilities & Campus Development</c> </h2>
+                             <h2 class="office">Baron Christian - <c>Dean, School Of Architecture</c> </h2>
+                             <h2 class="office">Oliver Pope- <c>Dean, Faculty of Arts & Science</c> </h2>
+                        </div>
+                        
+                </div>
+
+                
+            </div>
+            
+        </div>
+        <div class="image-section">
+            <img src="img/us.png">
+
+            <div class="button">
+
+            </div>
+
+
+    
+       
+        
+    </div>
+</div>
+
+
+
+    
+      
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Jquery needed -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+
+<!-- Function used to shrink nav bar removing paddings and adding black background -->
+    <script>
+        $(window).scroll(function() {
+            if ($(document).scrollTop() > 50) {
+                $('.nav').addClass('affix');
+                console.log("OK");
+            } else {
+                $('.nav').removeClass('affix');
+            }
+        });
+    </script>
+
+    <script>
+
+$('.navTrigger').click(function () {
+    $(this).toggleClass('active');
+    console.log("Clicked menu");
+    $("#mainListDiv").toggleClass("show_list");
+    $("#mainListDiv").fadeIn();
+
+});
+
+    </script>
+
+
+      
+
+
+
+</body>
+</html> 

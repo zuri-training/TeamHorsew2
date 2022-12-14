@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;200;300;400;500;600;700;800;900&family=Lexend+Deca:wght@200;300;400;500&family=Lexend:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,900&family=Roboto:wght@100;300;400;500;700;900&family=Squada+One&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  font-family: poppins;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 150vh;
+}
+.description {
+  position: relative;
+  top: 3.2rem;
+}
+.description h2 {
+  font-size: 18px;
+  font-weight: 900;
+  text-align: center;
+  letter-spacing: 1px;
+  color: rgb(155, 104, 155);
+}
+.description p {
+  font-size: 12px;
+  font-family: poppins;
+  color: rgb(175, 166, 166);
+}
+
+/* form styling */
+form {
+  display: flex;
+  flex-direction: column;
+}
+form h1 {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 900;
+  top: 4rem;
+  position: relative;
+}
+.label {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+}
+.label label {
+  position: relative;
+  right: 4.3rem;
+  top: 2.8rem;
+  font-size: 12px;
+}
+
+input {
+  width: 375px;
+  height: 40px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid grey;
+  margin-top: 12px;
+}
+
+/* select input */
+select {
+  width: 375px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  margin-top: 10px;
+}
+label {
+  font-size: 14px;
+  font-family: poppins;
+  color: rgb(43, 40, 40);
+  display: block;
+  margin-top: 15px;
+}
+/* end of select input */
+.product p {
+  font-size: 15px;
+  font-family: poppins;
+  color: rgb(43, 40, 40);
+  margin-top: 16px;
+}
+.product input {
+  width: 30px;
+  height: 20px;
+  border-radius: 5px;
+  position: relative;
+  bottom: 1.3rem;
+}
+.product label {
+  position: relative;
+  bottom: 3.8rem;
+  left: 3rem;
+  font-size: 15px;
+  font-family: poppins;
+}
+.product span {
+  margin: 8px;
+}
+.total_input,
+.email {
+  position: relative;
+  bottom: 3.2rem;
+}
+.total_input input {
+  color: grey;
+}
+.email label {
+  font-size: 16px;
+}
+.email input {
+  font-size: 14px;
+  color: grey;
+  letter-spacing: 1px;
+  font-family: poppins;
+}
+
+/* button */
+button {
+  background-color: rgb(110, 39, 110);
+  color: white;
+  width: 120px;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  align-self: center;
+  font-size: 12px;
+  font-family: poppins;
+  position: relative;
+  bottom: 2rem;
+  right: 1rem;
+}

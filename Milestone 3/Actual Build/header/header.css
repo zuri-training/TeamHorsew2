@@ -1,8 +1,11 @@
 *{
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
     /* overflow: hidden; */
+}
+body{
+    width: 100%;
+    height: 100;
 }
 main{
     position: relative;
@@ -34,13 +37,17 @@ nav a{
     font-size: 1.2em;
     font-weight: 700;
 }
+
 footer{
+    width:100%;
     background-color: #EFEFEE;
     color: #678398;
-    margin-top: 345px;
+    height: 250px;
+    
+    margin-top: -18px;
 }
 .footer-content{
-    height: 30vh;
+    height: 200px;
     display: flex;
     align-items: center;
     position: relative;
@@ -50,10 +57,9 @@ footer{
     padding-top: 50px;
 }
 .first img{
-    width: 15%;
     position: absolute;
-    top: -25px;
-    left: 15px;
+    top: 25px;
+    left: 25px;
 }
 footer a{
     text-decoration: none;
