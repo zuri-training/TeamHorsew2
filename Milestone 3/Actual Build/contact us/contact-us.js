@@ -19,3 +19,4 @@ var x = window.matchMedia("(max-width: 980px)");
             closeBtn.style.display = 'none';
         })
     }
+

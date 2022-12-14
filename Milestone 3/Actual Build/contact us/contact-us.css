@@ -1,11 +1,12 @@
 *{
   padding: 0;
   margin: 0;
-  
+ box-sizing:border-box;
 }
 body{
   width: 100%;
-  height:100%;
+  height: 100%;
+ overflow-x:hidden ; 
 }
 .main{
   position: relative;
@@ -64,6 +65,7 @@ p{
   font-family: 'Poppins', sans-serif;
 }
 .flex-container{
+  width: 100%;
   display: flex;
   justify-content: center;
   margin-top: 20px;
@@ -73,7 +75,7 @@ label{
   display: block;
 }
 button{display: block;
-  width:12%;
+  width:150px;
   height:38px;
   margin:18px auto;
   background-color: rgba(82, 17, 65, 0.884);
@@ -103,7 +105,7 @@ input{
   color: rgba(82, 17, 65, 0.884);
 
 }
-.image{
+.images{
   display: flex;
   width: 200px;
   margin:15px auto;
@@ -120,6 +122,7 @@ footer{
   margin-top: -18px;
 }
 .footer-content{
+  width:100%;
   height: 200px;
   display: flex;
   align-items: center;
@@ -160,4 +163,68 @@ footer a{
   font-size: 20px;
 }
 #close{
-  display: none;}
+display: none;}
+
+ @media (max-width:800px) {
+  #links{
+    height: 100px;
+  }
+  nav a{
+    display:block;
+  }
+  .image img{
+width:100px;
+height:700px;
+  }
+.main img{
+  width:110px;
+  height: 110px;
+  margin-top: 5px;
+  margin-left:-25px;
+}
+  .icon{
+    top: 10px;
+    left: 28rem;
+}
+.images{
+  margin-left: ;
+}
+.first{
+  margin-bottom: 25px;
+  margin-left: 2rem;
+}
+.first img{
+  top: 20px;
+  width: 100px;
+  left: 0px;
+}
+footer{
+  width: 100%;
+  height: 400px;
+  
+}
+.footer-content{
+  display:block;
+  height: 200px;
+  
+}
+.second, .third, .last{
+  margin-left: 2rem;
+  margin-bottom: 15px;
+}
+.second h4, .third h4, .last h4{
+  margin-bottom: 5px;
+}
+nav a{
+width:100px;
+  margin-top:50px ;
+  margin-left: 20px; 
+  font-size: 10px;
+  
+}
+.first p{
+  margin-left: -300px;
+
+margin-top: 30px;
+}
+ }
