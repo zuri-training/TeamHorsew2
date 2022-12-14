@@ -1,8 +1,11 @@
 *{
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
     /* overflow: hidden; */
+}
+body{
+    width: 100%;
+    height: 100;
 }
 main{
     position: relative;
@@ -34,81 +37,17 @@ nav a{
     font-size: 1.2em;
     font-weight: 700;
 }
-.contact{
-    width:100%;
-    margin:200px auto;
-    height:500px;
-    background-color: rgb(202, 176, 194);
-  }
-  h3,p{
-    text-align: center;
-  }
-  h3{padding-top: 10px;
-    font-weight: 700;
-    font-size: 40px;
-    color:rgb(129, 107, 122);
-    font-family: sans-serif;
-  }
-  p{
-    font-weight: 300;
-    font-size: 14px;
-    font-family: 'Poppins', sans-serif;
-  }
-  .flex-container{
-    display: flex;
-    justify-content: center;
-    margin-top: 15px;
-    
-  }
-  label{
-    display: block;
-  }
-  button{display: block;
-    width:12%;
-    height:38px;
-    margin:8px auto;
-    background-color: rgba(82, 17, 65, 0.884);
-    color: white;
-    font-size: 17px;
-    border: none;
-    border-radius: 5px;
-  }
-  .form-container{
-    width:400px;
-    height: 200px;
-    margin-right: 10px;
-  
-  }
-  textarea{
-    background-color:rgb(247, 241, 245);
-    border-radius: 7px;
-    padding:15px 15px;
-  }
-  input{
-    width:97%;
-    height: 50px;
-    margin-bottom:20px;
-    border: 2px solid;
-    border-radius: 7px;
-    padding-left: 10px;
-    color: rgba(82, 17, 65, 0.884);
-  
-  }
-  .image{
-    display: flex;
-    width: 200px;
-    margin:15px auto;
-  }
-  img{
-    margin-left: 13px;
-  }
+
 footer{
+    width:100%;
     background-color: #EFEFEE;
     color: #678398;
-    margin-top: 345px;
+    height: 250px;
+    
+    margin-top: -18px;
 }
 .footer-content{
-    height: 30vh;
+    height: 200px;
     display: flex;
     align-items: center;
     position: relative;
