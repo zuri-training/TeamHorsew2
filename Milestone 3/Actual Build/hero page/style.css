@@ -2,9 +2,10 @@ body html {
     margin: 8px;
     padding: 0px;
     display: block;
-    height: 100vh;
-    width: 150%;
+    height: 1361px;
+    width: 1440px;
     justify-content: space-between;
+    position: relative;
 }
 
 .every-year-half {
