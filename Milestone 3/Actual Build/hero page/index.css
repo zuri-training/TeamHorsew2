@@ -1,0 +1,556 @@
+body html {
+    margin: 8px;
+    padding: 0px;
+    display: block;
+    height: 100vh;
+    width: 150%;
+    justify-content: space-between;
+}
+
+.every-year-half {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.the-college-in {
+    margin: 0;
+}
+
+.every-year-half-a-million-guil {
+    position: relative;
+    line-height: 40px;
+    display: inline-block;
+}
+
+.frame-div {
+    position: absolute;
+    top: 902px;
+    left: 359px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    box-sizing: border-box;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 24px;
+    color: #454544;
+}
+
+.rectangle-div,
+.rectangle-div1,
+.rectangle-div2 {
+    position: absolute;
+    top: 16.06px;
+    left: 0;
+    background-color: #a67c9b;
+    width: 22.71px;
+    height: 5.68px;
+    overflow: hidden;
+    transform: rotate(-45deg);
+    transform-origin: 0 0;
+}
+
+.rectangle-div1,
+.rectangle-div2 {
+    top: 20.07px;
+    left: 10.14px;
+    background-color: #512746;
+    width: 28.39px;
+}
+
+.rectangle-div2 {
+    top: 24.09px;
+    left: 20.03px;
+    background-color: #fea574;
+    width: 34.07px;
+}
+
+.glca,
+.icon {
+    position: relative;
+}
+
+.icon {
+    width: 48.26px;
+    height: 28.39px;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+
+.glca {
+    line-height: 19.2px;
+    display: inline-block;
+}
+
+.makingit-logo {
+    height: 42.58px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 11.36px;
+}
+
+.makers-brand-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.making-the-world-a-better-plac {
+    position: relative;
+    line-height: 19.2px;
+    font-family: Poppins;
+    color: #678398;
+    text-align: left;
+    display: inline-block;
+    width: 317.76px;
+}
+
+.frame-div4 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+}
+
+.makers-social-media-icons {
+    position: relative;
+    width: 31.78px;
+    height: 31.78px;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+
+.frame-div3,
+.frame-div5 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 13px;
+}
+
+.frame-div3 {
+    flex-direction: column;
+    gap: 24px;
+}
+
+.organization {
+    position: relative;
+    line-height: 19.2px;
+    font-family: Poppins;
+    color: #000;
+    display: inline-block;
+}
+
+.navigation-item,
+.navigation-links {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.navigation-links {
+    width: 323px;
+    flex-direction: column;
+}
+
+.frame-div7 {
+    flex-shrink: 0;
+    gap: 16px;
+}
+
+.frame-div7,
+.navigation-links1,
+.navigation-links2 {
+    width: 142px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.navigation-links2 {
+    width: 125px;
+}
+
+.frame-div2,
+.frame-div6 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.frame-div6 {
+    flex: 1;
+    justify-content: flex-end;
+    gap: 124px;
+    text-align: left;
+    color: #678398;
+}
+
+.frame-div2 {
+    position: absolute;
+    top: 1389px;
+    left: 110px;
+    width: 1135px;
+    justify-content: flex-start;
+    gap: 88px;
+}
+
+.makers-brand-logo1 {
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.organization1,
+.testimonials1 {
+    position: relative;
+    line-height: 19.2px;
+    display: inline-block;
+}
+
+.organization1 {
+    color: #000;
+}
+
+.testimonials1 {
+    width: 135px;
+    flex-shrink: 0;
+}
+
+.frame-div10,
+.frame-div14 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.frame-div14 {
+    flex: 1;
+    justify-content: flex-end;
+    gap: 124px;
+    text-align: left;
+    color: #678398;
+    font-family: Poppins;
+}
+
+.frame-div10 {
+    position: absolute;
+    top: 84px;
+    left: 139px;
+    width: 1135px;
+    justify-content: flex-start;
+    gap: 88px;
+}
+
+.frame-div1,
+.frame-icon {
+    position: absolute;
+    left: 0;
+    width: 1440px;
+    overflow: hidden;
+}
+
+.frame-div1 {
+    top: 1066px;
+    background-color: #efefee;
+    height: 295px;
+    font-family: Inter;
+}
+
+.frame-icon {
+    top: 270px;
+    height: 600px;
+    object-fit: cover;
+}
+
+.contact-us,
+.events {
+    position: relative;
+    line-height: 19.2px;
+    display: inline-block;
+    width: 119px;
+    flex-shrink: 0;
+}
+
+.events {
+    width: 76px;
+}
+
+.frame-div19 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 32px;
+}
+
+.home,
+.vector-icon {
+    position: relative;
+    flex-shrink: 0;
+}
+
+.home {
+    line-height: 24px;
+    font-weight: 600;
+    display: inline-block;
+    width: 59px;
+}
+
+.vector-icon {
+    width: 6px;
+    height: 9.99px;
+}
+
+.frame-div21 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 16px;
+}
+
+.connect,
+.our-community {
+    position: relative;
+    line-height: 24px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.connect {
+    font-size: 20px;
+    font-family: Poppins;
+    color: #454544;
+    text-align: center;
+}
+
+.frame-button,
+.frame-div20 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.frame-button {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    align-items: center;
+    gap: 16px;
+}
+
+.frame-div20 {
+    width: 933px;
+    align-items: flex-start;
+    gap: 64px;
+    text-align: center;
+    font-size: 20px;
+    color: #454544;
+}
+
+.frame-div18 {
+    position: absolute;
+    top: 161px;
+    left: 244px;
+    width: 1095px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 32px;
+    text-align: left;
+    color: #292929;
+}
+
+.rectangle-div6,
+.rectangle-div7,
+.rectangle-div8 {
+    position: absolute;
+    top: 15.88px;
+    left: 0;
+    background-color: #a67c9b;
+    width: 22.46px;
+    height: 5.61px;
+    overflow: hidden;
+    transform: rotate(-45deg);
+    transform-origin: 0 0;
+}
+
+.rectangle-div7,
+.rectangle-div8 {
+    top: 19.85px;
+    left: 10.02px;
+    background-color: #512746;
+    width: 28.07px;
+}
+
+.rectangle-div8 {
+    top: 23.82px;
+    left: 19.81px;
+    background-color: #fea574;
+    width: 33.69px;
+}
+
+.glca2,
+.icon2 {
+    position: relative;
+}
+
+.icon2 {
+    width: 47.72px;
+    height: 28.07px;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+
+.glca2 {
+    line-height: 42.11px;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.makingit-logo2 {
+    height: 42.11px;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 11.23px;
+}
+
+.frame-div27,
+.left,
+.makingit-logo2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    width: 128px;
+    height: 42px;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.frame-div27 {
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.span {
+    color: #fff;
+}
+
+.colege-alumni {
+    color: #fea574;
+}
+
+.guiding-light-colege-alumni {
+    flex: 1;
+    position: relative;
+    line-height: 110.5%;
+    display: inline-block;
+}
+
+.frame-div26,
+.frame-div28 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.frame-div28 {
+    width: 319px;
+    flex-shrink: 0;
+    text-align: left;
+    font-size: 30px;
+    color: #292929;
+}
+
+.frame-div26 {
+    position: absolute;
+    top: 69px;
+    left: 100px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    gap: 16px;
+    font-size: 25.27px;
+}
+
+.pri-button {
+    position: relative;
+    font-size: 20px;
+    line-height: 32px;
+    font-family: Poppins;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+}
+
+.primary-button {
+    cursor: pointer;
+    border: 0;
+    padding: 3px 28px;
+    background-color: #663158;
+    border-radius: 10px;
+    width: 157px;
+    height: 46px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+}
+
+.vector-icon6,
+.vector-icon7 {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+.vector-icon7 {
+    width: 30.28px;
+    height: 32px;
+}
+
+.frame-div29,
+.frame-div30 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 32px;
+}
+
+.frame-div29 {
+    position: absolute;
+    top: 67px;
+    left: 875px;
+}
+
+.landing-page-hi-fi {
+    position: relative;
+    background-color: #fff;
+    width: 100%;
+    height: 1361px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 16px;
+    color: #0a2a42;
+    font-family: Poppins;
+}
