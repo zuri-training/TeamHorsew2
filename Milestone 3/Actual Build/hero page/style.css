@@ -1,9 +1,9 @@
 body html {
-    margin: 8px;
+    margin: auto;
     padding: 0px;
-    display: block;
+    display: flex;
     height: 1361px;
-    width: 1440px;
+    width: 95%;
     justify-content: space-between;
     position: relative;
 }
