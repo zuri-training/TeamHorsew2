@@ -36,6 +36,7 @@ This portal highlights the feature of communication, which will enable the new a
 - [Data Schema](https://lucid.app/documents/view/9f55f977-8771-4e8e-abdb-58a8c7d70cd4)
 - [Figma Link](https://www.figma.com/file/ZJkiIGnF2U7EUDmDAuMstf/Team-HorseW2-Alumni-Design-Project?node-id=0%3A1&t=ARNXj7cQEMdL6Q0K-1)
 - [Google Doc](https://docs.google.com/document/d/1DWkZdTgoSvvn4_8arN-P_ITPZStDnFW8UzHEPHZ2-9Q/edit?usp=sharing)
+- [Host Project Link](http://teamhorsew2.code234.com.ng)
 
 ## Tech Stack
 
