@@ -80,7 +80,7 @@ This portal highlights the feature of communication, which will enable the new a
 <details>
 <summary>Milestone 4</summary>
   <ul>
-    <li><a href="#">Coming soon</a></li>
+    <li><a href="http://teamhorsew2.code234.com.ng/">Hosted Project Link</a></li>
   </ul>
 </details>
 
